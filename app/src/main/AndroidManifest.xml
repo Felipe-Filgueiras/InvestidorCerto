@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InvestidorCerto"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TesteFile1"></activity>
+        <activity android:name=".TesteFile2"></activity>
+        <activity android:name=".TesteFile3"></activity>
+        <activity android:name=".TesteFile4"></activity>
+        <activity android:name=".TesteFile4_2"></activity>
+        <activity android:name=".TesteFile5"></activity>
+        <activity android:name=".TesteFile6"></activity>
+        <activity android:name=".TesteFile7"></activity>
+        <activity android:name=".TesteFile8"></activity>
+        <activity android:name=".TesteFile9"></activity>
+        <activity android:name=".TesteFile10"></activity>
+        <activity android:name=".TesteFile11"></activity>
+        <activity android:name=".TesteFile12"></activity>
+        <activity android:name=".TesteFile13"></activity>
+        <activity android:name=".TesteFile14"></activity>
+        <activity android:name=".TesteFileFinal"></activity>
+    </application>
+
+</manifest>
